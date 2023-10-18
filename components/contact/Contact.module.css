@@ -1,0 +1,47 @@
+.contact {
+    background: var(--soft-blue);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    padding: 4rem;
+    color: white;
+}
+
+.contact h5 {
+    font-weight: lighter;
+    letter-spacing: 5px;
+}
+
+.contact h1 {
+    width: 500px;
+    text-align: center;
+}
+
+.contact .email {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.contact input {
+    padding: 1rem;
+    border-radius: 5px;
+    border: none;
+}
+
+.contact button {
+    width: 120px;
+    color: white;
+    background: var(--soft-red);
+    border-radius: 5px;
+    border: var(--soft-red) solid 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26);
+}
+
+.contact button:hover {
+    cursor: pointer;
+    background: white;
+    color: var(--soft-red);
+}

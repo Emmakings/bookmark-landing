@@ -1,0 +1,42 @@
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    background: var(--very-dark-blue);
+    
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 4rem;
+}
+
+.ul {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    list-style: none;
+    align-items: center;
+    color: var(--very-dark-blue);
+    color: white;
+    font-size: 14px;
+}
+
+.ul li:hover {
+    cursor: pointer;
+    color: var(--soft-red);
+}
+
+.socials {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.socials .link:hover {
+    cursor: pointer;
+    background: var(--soft-red);
+}

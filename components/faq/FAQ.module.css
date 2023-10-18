@@ -1,0 +1,110 @@
+.faq {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 5rem;
+}
+
+.faq h1 {
+    color: var(--very-dark-blue);
+}
+
+.faq p {
+    width: 530px;
+    color: var(--grayish-blue);
+    font-size: 18px;
+}
+
+.hero {
+    background: white;
+    cursor: pointer;
+    color: var(--very-dark-blue);
+    padding: 18px;
+    display: flex;
+    width: 100%;
+    border: none;
+    align-items: center;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.2s;
+}
+
+.hero p {
+    color: var(--very-dark-blue);
+}
+
+.flex {
+    background: white;
+    color: var(--very-dark-blue);
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    text-align: left;
+    outline: none;
+    font-size: 18px;
+    font-family: 'Rubik', sans-serif;
+    transition: 0.2s;
+}
+
+.hero:hover {
+    color: var(--soft-red);
+}
+
+.items1 {
+    border-top: 1px solid var(--grayish-blue);
+    border-bottom: 1px solid var(--grayish-blue);
+}
+
+.items {
+    border-bottom: 1px solid var(--grayish-blue);
+}
+
+.img {
+    float: right;
+}
+
+.panel {
+    transition: height 0.5s ease-out;
+    padding: 18px;
+    display: none;
+    background-color: white;
+    overflow: hidden;
+    color: var(--grayish-blue);
+}
+
+/* .panel .visible {
+    display: block;
+} */
+
+.panel p {
+    color: var(--grayish-blue);
+    line-height: 30px;
+    font-size: 14px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info {
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    background: var(--soft-blue);
+    border: var(--soft-blue) solid 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26);
+    width: 120px;
+}
+
+.info:hover {
+    cursor: pointer;
+    background: white;
+    color: var(--soft-blue);
+}

@@ -1,0 +1,91 @@
+.download {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    align-items: center;
+}
+
+.flex1 {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.flex1 h1 {
+    color: var(--very-dark-blue);
+    /* font-weight: lighter; */
+}
+
+.flex1 p {
+    width: 530px;
+    color: var(--grayish-blue);
+    font-size: 18px;
+}
+
+.flex2 {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.extension {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 1.5rem 0 1.5rem 0;
+    width: fit-content;
+    border-radius: 20px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.123);
+}
+
+.add {
+    text-align: center;
+}
+
+.add h3 {
+    color: var(--very-dark-blue);
+    /* font-weight: lighter; */
+}
+
+.add span {
+    font-size: 15px;
+}
+
+.add span {
+    color: var(--grayish-blue);
+    font-weight: lighter;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.extension button {
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    background: var(--soft-blue);
+    border: var(--soft-blue) solid 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26);
+}
+
+.extension button:hover {
+    cursor: pointer;
+    background: white;
+    color: var(--soft-blue);
+}
+
+.flex2 .extension:nth-child(2) {
+    margin-top: 40px;
+    margin-bottom: -40px;
+}
+
+.flex2 .extension:nth-child(3) {
+    margin-top: 80px;
+    margin-bottom: -80px;
+}

@@ -45,3 +45,13 @@
     background: white;
     color: var(--soft-red);
 }
+
+.email button {
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 1256px) {
+    .contact {
+        width: max-content;
+    }
+}

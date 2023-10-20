@@ -1,0 +1,78 @@
+
+.bookmark {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content : center; */
+}
+
+.image {
+    display: flex;
+    flex-direction: row;
+    width: 850px;
+}
+
+.img {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 200px;
+    z-index: 1;
+}
+
+.heroBack {
+    background: var(--soft-blue);
+    padding: 11rem;
+    margin-right: 20rem;
+    margin-top: 8rem;
+    margin-left: -10rem;
+    width: 670px;
+    border-radius: 0 0 10rem 0;
+    position: relative;
+}
+
+.simple {
+    display: flex;
+    flex-direction: column;
+    /* width: 400px; */
+    text-align: start;
+    gap: 1.5rem;
+    line-height: 1.5rem;
+}
+
+.simple h1 {
+    color: var(--very-dark-blue);
+}
+
+.simple p {
+    text-align: none;
+    width: 450px;
+}
+
+.simple button {
+    padding: 1rem;
+    border-radius: 5px;
+    color: white;
+    background: var(--soft-blue);
+    border: var(--soft-blue) solid 2px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.26);
+    width: fit-content;
+}
+
+.simple button:hover {
+    cursor: pointer;
+    background: white;
+    color: var(--soft-blue);
+}
+
+@media only screen and (max-width: 1256px) {
+    .bookmark {
+        flex-direction: column;
+        gap: 4rem;
+    }
+
+    .simple {
+        width: 500px;
+        text-align: center;
+        align-items: center;
+    }
+}

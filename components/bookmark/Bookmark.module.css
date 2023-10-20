@@ -82,7 +82,7 @@
     border-radius: 0 0 0 10rem;
 }
 
-@media only screen and (max-width: 1256px) {
+@media (max-width: 1256px) {
     .bookmark {
         flex-direction: column;
         gap: 3rem;
@@ -92,5 +92,21 @@
         width: fit-content;
         text-align: center;
         align-items: center;
+    }
+
+    .img {
+        width: 500px;
+        height: 400px;
+    }
+
+    .flex2 {
+        justify-content: center;
+    }
+
+    .heroBack {
+        width: 450px;
+        height: 200px;
+        justify-self: right;
+        margin-right: -150px;
     }
 }

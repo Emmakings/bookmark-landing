@@ -40,3 +40,9 @@
     cursor: pointer;
     background: var(--soft-red);
 }
+
+@media only screen and (max-width: 1256px) {
+    .footer {
+        width: max-content;
+    }
+}

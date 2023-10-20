@@ -39,3 +39,15 @@
     background: white;
     color: var(--soft-red);
 }
+
+@media only screen and (max-width: 1256px) {
+    .header {
+        gap: 20rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    .ul {
+        display: none;
+    }
+}

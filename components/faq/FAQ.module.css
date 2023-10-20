@@ -108,3 +108,9 @@
     background: white;
     color: var(--soft-blue);
 }
+
+/* @media only screen and (max-width: 1256px) {
+    .hero {
+        width: 70%;
+    }
+} */
